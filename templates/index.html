@@ -4,216 +4,170 @@
 		<meta charset="utf-8" />
 		<meta name="description" content="Aplicación del Curso de Diseño Web Online 2014 Mejorando.la"/>
 		<title>Puls2014</title>
+		<link rel="stylesheet" href="../static/css/normalize.css">
+		<link rel="stylesheet" href="../static/css/estilos.css">
 	</head>
 	<body>
 		<header >
 			<figure id="logo">
-				<img src="logo.png"/>
+				<img src="../static/images/logo.png"/>
 			</figure>
 			<h1 >Puls2014: Comunidad de personas atractivas y millonarias</h1>
 			<figure id="avatar">
-				<img  src="avatar.jpg"/>
+				<img  src="../static/images/avatar.png"/>
 			</figure>				
 		</header>
 		<nav >
 			<ul >
 				<li >
-					<a  href="#">
-						Python
-					</a>
+					<a  href="#">Python	</a>
 				</li>
 				<li >
-					<a  href="#">
-						HTML5
-					</a>
+					<a  href="#">HTML5 </a>
 				</li>
 				<li >
-					<a  href="#">
-						JavaScript
-					</a>
+					<a  href="#">JavaScript	</a>
 				</li>
 				<li >
-					<a  href="#">
-						CSS3
-					</a>
+					<a  href="#">CSS3</a>
 				</li>
 				<li >
-					<a  href="#">
-						Django
-					</a>
+					<a  href="#">Django	</a>
 				</li>
-				<li >
-					<a  href="#">
-						Publicar
+				<li  id="publicar_nav">	<a  href=""> Publicar
 					</a>
 				</li>
 			</ul>
 		</nav>
 		<section id="contenido">
-			<article >
-				<figure >
-					<img  src="imagen.jpg"/>
+			<article class="item">
+				<figure  class="imagen_item">
+					<img src="../static/images/imagen.jpg"/>
 				</figure>
-				<h2 >
+				<h2 class="titulo_item">
 					<a  href="#">
 						Titulo Articulo
 					</a>	
 				</h2>
-				<div >
-					por 
+				<div class="autor_item" >
+					Por 
 					<a href="#">
-						Autor
-					</a>
-				</div>
-				<div >
-					<a  href="#">
-						Categoria
-					</a>
-					<span >
-						Hace 
-						<strong>
-							5
-						</strong>
-						 minutos
-					</span>					
-					
-				</div>
-				<div >
-					<a  href="#">						
-					</a>
-					1234
-					<a  href="#">						
-					</a>
-					<a  href="#">
-						Numero comentarios
-					</a>					
-					<a href="#">						
-					</a>
-				</div>
-			</article>
-			<article >
-				<figure >
-					<img  src="imagen.jpg"/>
-				</figure>
-				<h2 >
-					<a  href="#">
-						Titulo Articulo
-					</a>	
-				</h2>
-				<div class="autor_item">
-					por 
-					<a  href="#">
-						Autor
+						Maika Gonzalez
 					</a>
 				</div>
 				<div class="datos_item">
-					<a href="#" class="tag_item">
+					<a  href="#"  class="tag_item">
 						Categoria
 					</a>
-					<span class="fecha_item">
-						Hace 
-						<strong>
-							5
-						</strong>
-						 minutos
-					</span>					
-					
-				</div>
-				<div >
-					<a  href="#">						
-					</a>
-					1234
-					<a href="#">						
-					</a>
-					<a href="#">
-						Numero comentarios
-					</a>					
-					<a  href="#">						
-					</a>
-				</div>
-			</article>
-			<article >
-				<figure >
-					<img  src="../static/images/imagen.jpg"/>
-				</figure>
-				<h2 >
-					<a href="#">
-						Titulo Articulo
-					</a>	
-				</h2>
-				<p >
-					por 
-					<a href="#">
-						Autor
-					</a>
-				</p>
-				<div >
-					<a  href="#">
-						Categoria
-					</a>
-					<div >
-						Hace 
-						<strong>
-							5
-						</strong>
-						 minutos
-					</div>					
-					
-				</div>
-				<div >
-					<a href="#">						
-					</a>
-					1234
-					<a  href="#">						
-					</a>
-					<a  href="#">
-						Numero comentarios
-					</a>					
-					<a  href="#">						
-					</a>
-				</div>
-			</article>
-			<article >
-				<figure >
-					<img src="../static/images/imagen.jpg"/>
-				</figure>
-				<h2 >
-					<a  href="#">
-						Titulo Articulo
-					</a>	
-				</h2>
-				<div >
-					por 
-					<a  href="#">
-						Autor
-					</a>
-				</div>
-				<div >
-					<a  href="#">
-						Categoria
-					</a>
-					<span class="fecha_item">
-						Hace 
-						<strong>
-							5
-						</strong>
-						 minutos
+					<span  class="fecha_item">
+						Hace <strong>5</strong> minutos
 					</span>					
 					
 				</div>
 				<div class="votacion">
-					<a  href="#" class="up">
-					</a>
+					<a  href="#" class="up">U</a>
 					1234
-					<a class="down" href="#">						
-					</a>
-					<a class="comentario_item" href="#">
-						Numero comentarios
-					</a>					
-					<a class="guardar_item" href="#">						
+					<a  href="#" class="down">D</a>
+					<a  href="#" class="comentarios_item">3	</a>					
+					<a href="#" class="guardar_item">X</a>
+				</div>
+			</article>
+		<article class="item">
+				<figure  class="imagen_item">
+					<img src="../static/images/imagen.jpg"/>
+				</figure>
+				<h2 class="titulo_item">
+					<a  href="#">
+						Titulo Articulo
+					</a>	
+				</h2>
+				<div class="autor_item" >
+					Por 
+					<a href="#">
+						Maika Gonzalez
 					</a>
 				</div>
-			</article>						
+				<div class="datos_item">
+					<a  href="#"  class="tag_item">
+						Categoria
+					</a>
+					<span  class="fecha_item">
+						Hace <strong>5</strong> minutos
+					</span>					
+					
+				</div>
+				<div class="votacion">
+					<a  href="#" class="up">U</a>
+					1234
+					<a  href="#" class="down">D</a>
+					<a  href="#" class="comentarios_item">3	</a>					
+					<a href="#" class="guardar_item">X</a>
+				</div>
+			</article>
+			<article class="item">
+				<figure  class="imagen_item">
+					<img src="../static/images/imagen.jpg"/>
+				</figure>
+				<h2 class="titulo_item">
+					<a  href="#">
+						Titulo Articulo
+					</a>	
+				</h2>
+				<div class="autor_item" >
+					Por 
+					<a href="#">
+						Maika Gonzalez
+					</a>
+				</div>
+				<div class="datos_item">
+					<a  href="#"  class="tag_item">
+						Categoria
+					</a>
+					<span  class="fecha_item">
+						Hace <strong>5</strong> minutos
+					</span>					
+					
+				</div>
+				<div class="votacion">
+					<a  href="#" class="up">U</a>
+					1234
+					<a  href="#" class="down">D</a>
+					<a  href="#" class="comentarios_item">3	</a>					
+					<a href="#" class="guardar_item">X</a>
+				</div>
+			</article>
+			<article class="item">
+				<figure  class="imagen_item">
+					<img src="../static/images/imagen.jpg"/>
+				</figure>
+				<h2 class="titulo_item">
+					<a  href="#">
+						Titulo Articulo
+					</a>	
+				</h2>
+				<div class="autor_item" >
+					Por 
+					<a href="#">
+						Maika Gonzalez
+					</a>
+				</div>
+				<div class="datos_item">
+					<a  href="#"  class="tag_item">
+						Categoria
+					</a>
+					<span  class="fecha_item">
+						Hace <strong>5</strong> minutos
+					</span>					
+					
+				</div>
+				<div class="votacion">
+					<a  href="#" class="up">U</a>
+					1234
+					<a  href="#" class="down">D</a>
+					<a  href="#" class="comentarios_item">3	</a>					
+					<a href="#" class="guardar_item">X</a>
+				</div>
+			</article>
 		</section>
 		<footer >
 			<p >
